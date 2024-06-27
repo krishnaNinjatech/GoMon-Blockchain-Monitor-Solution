@@ -1,3 +1,4 @@
+# Useful
 # Get addresses of created accounts
 
 curl -X POST --data '{"jsonrpc": "2.0","id": 1,"method": "eth_accounts","params": []}'  -H 'Content-Type: application/json' http://localhost:8545
