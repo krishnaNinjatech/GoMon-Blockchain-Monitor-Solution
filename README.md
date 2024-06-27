@@ -119,8 +119,8 @@ let's get into implemented POC, takes 5 mins to setup and run!
 # With this local block chain network should be complete
 7. Testing the High value transaction test case breach: run eth console> eth.sendTransaction({from: '0x5c0b07b93526cd047c193fac6d7c0f321aa8901f', to: '0x0536f6c3e7577bf74a21fe17957118d393452975', value: web3.toWei(2, 'ether')})
 
-Following log should be prompted:
-      go run main.go
+Following log should be prompted:  
+      go run main.go  
       time="2024-06-28T02:43:53+05:30" level=info msg="Monitoring new blocks..."
       time="2024-06-28T02:43:53+05:30" level=info msg="New Block: 0x775b70fd52eac16e9216ef78e156396f87ce23e76c40c70dbed75763ed6ed1d6"
       time="2024-06-28T02:43:53+05:30" level=info msg="Block Transactions: 1"
