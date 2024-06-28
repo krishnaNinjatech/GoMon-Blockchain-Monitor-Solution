@@ -14,28 +14,29 @@ Approach: I am going to choose setting up a local block chain network to simulat
       Discuss methods for securing a private blockchain (i.e. Hyperledger Fabric/Besu). (Done, Check below).
 
 ## Bonus Points:
-  1. Test case and Implement logic to detect potential vulnerabilities, threats, and attacks based on the metrics extracted.
+1. Test case and Implement logic to detect potential vulnerabilities, threats, and attacks based on the metrics extracted.
 	Logics Implemented:
 	Deduce high volume transaction and display in the monitor console. [Done].
 
 ## 1.  Choise of Metric: Detection of High Volume Transaction: High volume trasactions are a way to basically try to breach the set limit 
 In a given point in time. Some of the use cases where the high volume transactions are really important from security stand point are:
- > Money Laundering or Terrorist Financing to be able to monitor suspicious activities which could be financial crimes. 
- > To be able to meet with the compliance and regulatory requirements.  
- > Protection against exploits and attacks from hackers.  
- > Fraud detection to prevent.  
- > Validating the transactions happening on a network to exercise control over network security.  
- > Detecting insider threats is another useful scenario to think about as well.  
- > Detecting any ransomware payments from the victims.  
-
+```  
+ 1. Money Laundering or Terrorist Financing to be able to monitor suspicious activities which could be financial crimes. 
+ 2. To be able to meet with the compliance and regulatory requirements.  
+ 3. Protection against exploits and attacks from hackers.  
+ 4. Fraud detection to prevent.  
+ 5. Validating the transactions happening on a network to exercise control over network security.  
+ 6. Detecting insider threats is another useful scenario to think about as well.  
+  Detecting any ransomware payments from the victims.  
+```  
 ## Ideal scenario as follows:
- > Transaction Detected: A transaction of more than 1 ETH (1000000000000000000 in wei) is detected on the blockchain.  
- > Immediate Alert: An alert is triggered due to the unusually high value of the transaction.  
- > Investigation: The transaction details are reviewed. The sender and recipient addresses are checked against known addresses for 
+ 1. Transaction Detected: A transaction of more than 1 ETH (1000000000000000000 in wei) is detected on the blockchain.  
+ Immediate Alert: An alert is triggered due to the unusually high value of the transaction.  
+ 2. Investigation: The transaction details are reviewed. The sender and recipient addresses are checked against known addresses for 
    any suspicious activity.  
- > Regulatory Reporting: If the transaction is deemed suspicious, it is reported to the relevant financial authorities for 
+ 3. Regulatory Reporting: If the transaction is deemed suspicious, it is reported to the relevant financial authorities for 
    further investigation.  
- > Action Taken: Based on the investigation, appropriate actions are taken. This could involve freezing the assets, reversing the 
+ 4. Action Taken: Based on the investigation, appropriate actions are taken. This could involve freezing the assets, reversing the 
    transaction (if possible), or enhancing security measures to prevent further unauthorized transactions.  
 
 ## The POC execution output is given below.
